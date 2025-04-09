@@ -173,7 +173,7 @@ a {
 
 .about_img {
     margin-bottom: -145px;
-    margin-left: 50px;
+    margin-left: 32px;
 }
 
 .about_div {
@@ -186,8 +186,8 @@ a {
 
 .about_h1 {
     font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 32px;
+    font-weight: 600;
+    font-size: 27px;
     line-height: 100%;
     letter-spacing: 0%;
     color: #fff;
@@ -197,8 +197,8 @@ a {
 .about_text1 {
     max-width: 207px;
     font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
@@ -590,7 +590,7 @@ a {
 }
 
 .skills_oxygen-div {
-    width:350px ;
+    width: 350px;
     display: flex;
     align-items: center;
     gap: 23px;
@@ -628,7 +628,7 @@ a {
 
 .skills_oxygen_btn {
     width: 251px;
-    height: 18px;
+    height: 23px;
     border: none;
     border-radius: 20px;
     background-color: #00EEFF;
@@ -743,26 +743,31 @@ a {
 }
 
 .service_container {
-    width: 1920px;
+    width: 1440px;
     margin: 0 auto;
     background-color: #323946;
-    padding: 0 360px;
+    padding: 0 180px;
 }
 
 .service_list {
-    width: 1100px;
+    width: 1200px;
     padding-bottom: 208px;
     display: flex;
+    margin: 0 auto;
     align-items: center;
-    justify-content: space-between;
-    gap: 15px;
+    gap: 40px;
 }
 
 .service_li {
-    padding: 47px 17px 33px 19px;
+    padding: 37px 12px 23px 12px;
     background-color: #1F242DCC;
     border-radius: 16px;
     text-align: center;
+}
+
+.service_img1 {
+    width: 80px;
+    height: 80px;
 }
 
 .service_li:hover {
@@ -772,11 +777,11 @@ a {
 }
 
 .service_h1 {
-    padding-top: 34px;
+    padding-top: 14px;
     padding-bottom: 33px;
     font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 26px;
+    font-weight: 600;
+    font-size: 24px;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
@@ -784,10 +789,10 @@ a {
 }
 
 .service_text1 {
-    width: 349px;
+    width: 300px;
     font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
@@ -831,10 +836,10 @@ a {
 }
 
 .porfolio_container {
-    width: 1920px;
+    width: 1440px;
     background-color: #1F242D;
     margin: 0 auto;
-    padding: 0 360px 133px 360px;
+    padding: 0 180px 133px 180px;
 }
 
 .portfolio_flex {
@@ -851,15 +856,17 @@ a {
 }
 
 .portfolio_img1 {
-    padding: 0 104px;
-    width: 387px;
+    padding: 0px 123px;
+    width: 340px;
     background: url(img/portfolio_flex_img1.svg);
     text-align: center;
+    border-radius: 15px;
+
 }
 
 .img1_h {
-    padding-top: 77px;
-    padding-bottom: 22px;
+    padding-top: 42px;
+    padding-bottom: 12px;
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 28px;
@@ -870,12 +877,12 @@ a {
 }
 
 .img1_img {
-    padding-bottom: 66px;
+    padding-bottom: 40px;
 }
 
 .portfolio_title {
-    padding-top: 133px;
-    padding-bottom: 127px;
+    padding-top: 100px;
+    padding-bottom: 90px;
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 36px;
@@ -885,13 +892,33 @@ a {
     color: #fff;
 }
 
+.portfolio_flex_img2 {
+    width: 340px;
+}
+
+.portfolio_flex_img3 {
+    width: 340px;
+}
+
+.portfolio_oxygen_img1 {
+    width: 340px;
+}
+
+.portfolio_oxygen_img2 {
+    width: 340px;
+}
+
+.portfolio_oxygen_img3 {
+    width: 340px;
+}
+
 .portfolio_span {
     color: #00EEFF;
 }
 
 .contact_container {
-    width: 1920px;
-    padding: 0 360px;
+    width: 1440px;
+    padding: 0 180px;
     margin: 0 auto;
     background-color: #323946;
 }
@@ -913,7 +940,7 @@ a {
 }
 
 .contact_text {
-    max-width: 459px;
+    max-width: 420px;
     padding-top: 33px;
     padding-bottom: 65px;
     font-family: 'Montserrat';
@@ -931,8 +958,8 @@ a {
 
 .contact_box {
     display: flex;
-    padding-bottom: 122px;
-    gap: 148px;
+    padding-bottom: 112px;
+    gap: 70px;
 }
 
 .contact_oxygen {
@@ -941,71 +968,91 @@ a {
 
 .contact_oxygen2 {
     display: flex;
+    margin-bottom: -5px;
     gap: 21px;
 }
 
 .contact_oxygen3 {
     display: flex;
+    margin-bottom: -5px;
     gap: 21px;
     margin-top: 22px;
     padding-bottom: 19px;
 }
 
 .contact_oxygen_input1 {
-    padding: 10px 50px 10px 19px;
+    padding: 10px 77px 10px 19px;
     color: #fff;
     background-color: #1F242DCC;
     border-radius: 10px;
     border: none;
     font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0%;
+}
+
+.contact_oxygen_input1::placeholder {
+    color: #fff;
 }
 
 .contact_oxygen_input2 {
-    padding: 10px 50px 10px 19px;
+    padding: 10px 77px 10px 19px;
     color: #fff;
     background-color: #1F242DCC;
     border-radius: 10px;
     border: none;
     font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0%;
+}
+
+.contact_oxygen_input2::placeholder {
+    color: #fff;
 }
 
 .contact_oxygen_input3 {
-    padding: 10px 50px 10px 19px;
+    padding: 10px 77px 10px 19px;
     color: #fff;
     background-color: #1F242DCC;
     border-radius: 10px;
     border: none;
     font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0%;
+}
+
+.contact_oxygen_input3::placeholder {
+    color: #fff;
 }
 
 .contact_oxygen_input4 {
-    padding: 10px 50px 10px 19px;
+    padding: 10px 77px 10px 19px;
     color: #fff;
     background-color: #1F242DCC;
     border-radius: 10px;
     border: none;
     font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0%;
 }
 
+.contact_oxygen_input4::placeholder {
+    color: #fff;
+}
+
 .contact_oxygen4 {
+    max-width: 570px;
     display: flex;
     flex-direction: column;
+    /* gap: -14px; */
 }
 
 .contact_oxygen_input5 {
@@ -1014,8 +1061,8 @@ a {
     border-radius: 10px;
     border: none;
     font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 16px;
+    font-weight:500;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0%;
     color: #fff;
@@ -1033,11 +1080,15 @@ a {
     border-radius: 10px;
     border: none;
     font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0%;
     color: #fff;
+}
+
+.contact_oxygen_input6::placeholder {
+    color: white;
 }
 
 .contact_oxygen_input7 {
@@ -1049,8 +1100,8 @@ a {
     border-radius: 10px;
     border: none;
     font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0%;
     color: #fff;
@@ -1061,25 +1112,29 @@ a {
 }
 
 .footer_container {
-    width: 1920px;
+    width: 1440px;
     margin: 0 auto;
-    padding: 0 360px;
+    padding: 0 180px;
     background-color: #232832;
 }
 
 .footer_title {
     font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0%;
     color: #fff;
 }
 
 .footer_box {
-    padding-top: 26px;
-    padding-bottom: 26px;
+    width: 1110px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between;
     align-items: center;
-    gap: 748px;
+    /* gap: 400px; */
 }
